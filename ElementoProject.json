@@ -1,0 +1,34 @@
+{
+  "id": "project_1",
+  "name": "New Project",
+  "kind": "Project",
+  "properties": {},
+  "elements": [
+    {
+      "id": "app1",
+      "name": "New App",
+      "kind": "App",
+      "properties": {},
+      "elements": [
+        {
+          "id": "page_1",
+          "name": "Main Page",
+          "kind": "Page",
+          "properties": {},
+          "elements": [
+            {
+              "id": "text_1",
+              "name": "Text 1",
+              "kind": "Text",
+              "properties": {
+                "content": "Underground creatures",
+                "fontSize": 32
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
