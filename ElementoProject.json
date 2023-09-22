@@ -25,6 +25,15 @@
                 "fontSize": 32
               },
               "elements": []
+            },
+            {
+              "id": "image_1",
+              "name": "Image 1",
+              "kind": "Image",
+              "properties": {
+                "source": "Plant.jpg"
+              },
+              "elements": []
             }
           ]
         }

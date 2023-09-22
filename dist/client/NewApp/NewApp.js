@@ -5,10 +5,11 @@ const {React} = Elemento
 // MainPage.js
 function MainPage(props) {
     const pathWith = name => props.path + '.' + name
-    const {Page, TextElement} = Elemento.components
+    const {Page, TextElement, Image} = Elemento.components
 
     return React.createElement(Page, {id: props.path},
         React.createElement(TextElement, {path: pathWith('Text1'), fontSize: 32}, 'Underground creatures and things'),
+        React.createElement(Image, {path: pathWith('Image1'), source: 'Plant.jpg'}),
     )
 }
 
