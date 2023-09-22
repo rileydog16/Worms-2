@@ -21,7 +21,7 @@
               "name": "Text 1",
               "kind": "Text",
               "properties": {
-                "content": "Underground creatures",
+                "content": "Underground creatures and things",
                 "fontSize": 32
               },
               "elements": []
@@ -29,6 +29,12 @@
           ]
         }
       ]
+    },
+    {
+      "id": "_TOOLS",
+      "name": "Tools",
+      "kind": "ToolFolder",
+      "properties": {}
     }
   ]
 }

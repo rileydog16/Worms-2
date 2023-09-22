@@ -8,7 +8,7 @@ function MainPage(props) {
     const {Page, TextElement} = Elemento.components
 
     return React.createElement(Page, {id: props.path},
-        React.createElement(TextElement, {path: pathWith('Text1'), fontSize: 32}, 'Underground creatures'),
+        React.createElement(TextElement, {path: pathWith('Text1'), fontSize: 32}, 'Underground creatures and things'),
     )
 }
 
